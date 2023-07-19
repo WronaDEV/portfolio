@@ -1,0 +1,75 @@
+:root {
+    --flash-wait: 1s;
+    --flash-timeout: 0.05s;
+}
+
+body {
+    background-color: black;
+    margin: 0;
+}
+
+.flash-div {
+    position: absolute;
+    width: 10%;
+    height: 100vh;
+    animation: animation 1s;
+}
+
+#flash-div1 {
+    margin-left: 0;
+    animation-delay: calc(var(--flash-wait) + var(--flash-timeout) * 1);
+}
+
+#flash-div2 {
+    margin-left: 10%;
+    animation-delay: calc(var(--flash-wait) + var(--flash-timeout)* 2);
+}
+
+#flash-div3 {
+    margin-left: 20%;
+    animation-delay: calc(var(--flash-wait) + var(--flash-timeout) * 3);
+}
+
+#flash-div4 {
+    margin-left: 30%;
+    animation-delay: calc(var(--flash-wait) + var(--flash-timeout) * 4);
+}
+
+#flash-div5 {
+    margin-left: 40%;
+    animation-delay: calc(var(--flash-wait) + var(--flash-timeout) * 5);
+}
+
+#flash-div6 {
+    margin-left: 50%;
+    animation-delay: calc(var(--flash-wait) + var(--flash-timeout) * 6);
+}
+
+#flash-div7 {
+    margin-left: 60%;
+    animation-delay: calc(var(--flash-wait) + var(--flash-timeout) * 7);
+}
+
+#flash-div8 {
+    margin-left: 70%;
+    animation-delay: calc(var(--flash-wait) + var(--flash-timeout) * 8);
+}
+
+#flash-div9 {
+    margin-left: 80%;
+    animation-delay: calc(var(--flash-wait) + var(--flash-timeout) * 9);
+}
+
+#flash-div10 {
+    margin-left: 90%;
+    animation-delay: calc(var(--flash-wait) + var(--flash-timeout) * 10);
+}
+
+@keyframes animation {
+    0% {
+        background-color: transparent;
+    }
+    1% {
+        background-color: white;
+    }
+}
