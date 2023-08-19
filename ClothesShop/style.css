@@ -66,10 +66,27 @@ body::after {
     margin-left: 10px;
 }
 
+#search-div {
+    position: absolute;
+    width: 200px;
+    height: 40px;
+    background-color: rgba(37, 37, 37, 0.15);
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    border: solid 1px rgba(37, 37, 37, 0.5);
+    right: 0;
+    padding-left: 15px;
+    color: white;
+    outline: none;
+}
+
 @media only screen and (max-width: 1120px) {
     #navbar {
         width: 100%;
         transition: all 1s;
+    }
+    #search-div {
+        right: 15px;
     }
 }
 
