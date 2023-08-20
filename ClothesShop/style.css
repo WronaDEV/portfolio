@@ -78,6 +78,11 @@ body::after {
     padding-left: 15px;
     color: white;
     outline: none;
+    transition: all 0.5s;
+}
+
+#search-div:focus {
+    background-color: rgba(0, 0, 0, 0.35);
 }
 
 @media only screen and (max-width: 1120px) {
