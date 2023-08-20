@@ -203,6 +203,10 @@ body::after {
     margin-left: 220px;
 }
 
+#product-3 {
+    margin-left: 430px;
+}
+
 #social-banner {
     position: absolute;
     width: 1120px;
