@@ -195,7 +195,6 @@ body::after {
     margin-top: 45px;
     transform: translate(-50%, 0);
     font-family: 'Roboto', sans-serif;
-    font-weight: bold;
     text-align: center;
     transition: all 0.5s;
 }
