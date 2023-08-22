@@ -2,7 +2,7 @@
 
 Examples of my work!
 
-## Websites
+# Websites
 
  ### ClothesShop
    <img src="assets/clothesshop-comp.png">
