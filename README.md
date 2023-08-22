@@ -4,6 +4,5 @@ Examples of my work!
 
 ## Websites
 
- ### CarDealer
+ ### ClothesShop
    <img src="assets/clothesshop-comp.png">
- - ClothesShop
