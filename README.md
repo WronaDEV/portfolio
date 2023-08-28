@@ -4,7 +4,7 @@ Examples of my work!
 
 ## Websites
 <details>
-  <summary>ClothesShop</summary>
+  <summary><h4>ClothesShop</h4></summary>
   
   #### Heading
   1. 
