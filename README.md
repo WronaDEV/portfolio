@@ -8,5 +8,5 @@ Examples of my work!
   
   #### Website on different devices
   1. Computer<br><img src="https://github.com/WronaDEV/portfolio/blob/main/assets/clothesshop-comp.png">
-  2. Mobile
+  2. Mobile<br><img src="https://github.com/WronaDEV/portfolio/blob/main/assets/clothesshop-tel.png">
 </details>
