@@ -1,0 +1,115 @@
+body {
+    background-color: rgb(5, 5, 5);
+    margin: 0;
+}
+
+body::after {
+    content: "";
+    display: block;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    z-index: -1;
+}
+
+#navbar {
+    width: 100%;
+    height: 100px;
+    background-image: linear-gradient(150deg, #00ff80 -400%, #000001 50%, #00ffcc 400%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#nav {
+    width: 1120px;
+    height: 100px;
+    position: absolute;
+}
+
+#page-logo {
+    width: 100px;
+}
+
+#fivem-button {
+    cursor: pointer;
+    position: absolute;
+    width: 150px;
+    height: 50px;
+    background-color: white;
+    right: 25px;
+    top: 25px;
+    border-radius: 10px;
+    transition: all 1s;
+}
+
+#fivem-button-logo {
+    width: 100px;
+    margin-top: 7.5px;
+    margin-left: 20px;
+    filter: brightness(1);
+    transition: all 0.5s;
+}
+
+#fivem-button:hover {
+    background-color: #FF6F00;
+}
+
+#fivem-button:hover > #fivem-button-logo {
+    filter: brightness(0);
+}
+
+#discord-button {
+    position: absolute;
+    width: 150px;
+    height: 50px;
+    background-color: white;
+    right: 225px;
+    top: 25px;
+    border-radius: 10px;
+    padding: 0;
+}
+
+#discord-button-logo {
+    width: 100px;
+    margin-left: 25px;
+    margin-top: -2px;
+}
+
+#main-div {
+    position: absolute;
+    width: 1120px;
+    height: 500px;
+    margin-top: 200px;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+#main-text {
+    position: absolute;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    margin: 100px;
+}
+
+#small-text {
+    color: rgb(131, 131, 131);
+    position: absolute;
+    justify-content: left;
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+    font-size: 30px;
+    margin-top: 170px;
+    margin-left: 100px;
+}
+
+#main-img {
+    width: 600px;
+    margin-left: 500px;
+    border-radius: 100px;
+}
