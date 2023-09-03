@@ -40,6 +40,10 @@ body::after {
     scale: 0.8;
 }
 
+#fivem-logo:hover {
+    filter: grayscale(0);
+}
+
 #discord-logo {
     cursor: pointer;
     position: absolute;
@@ -48,7 +52,11 @@ body::after {
     top: 30px;
     transition: all 1s;
     filter: grayscale(1);
-    scale: 1;
+    scale: 1.1;
+}
+
+#discord-logo:hover {
+    filter: grayscale(0);
 }
 
 #main-div {
