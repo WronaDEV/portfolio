@@ -111,4 +111,7 @@ body::after {
     #navbar {
         width: 100%;
     }
+    #discord-logo {
+        right: 100px;
+    }
 }
