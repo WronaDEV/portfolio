@@ -6,8 +6,8 @@ Examples of my work!
 
 <details>
   <summary><h4>ClothesShop</h4></summary>
-  #### Website on different devices
-  1. Computer<br><img src="https://github.com/WronaDEV/portfolio/blob/main/assets/clothesshop-comp.png">
+  Website on different devices<br>
+  1. Computer<br><img src="https://github.com/WronaDEV/portfolio/blob/main/assets/clothesshop-comp.png"><br>
   2. Mobile<br><img src="https://github.com/WronaDEV/portfolio/blob/main/assets/clothesshop-mobile.png">
 </details>
 
