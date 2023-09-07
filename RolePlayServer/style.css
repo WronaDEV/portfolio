@@ -118,3 +118,21 @@ body::after {
         right: 30px;
     }
 }
+
+@media only screen and (max-width: 1240px) {
+    #main-img {
+        margin-left: 500px;
+    }
+    #main-img1 {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 1140px) {
+    #main-img {
+        margin-left: 500px;
+    }
+    #main-img1 {
+        display: none;
+    }
+}
