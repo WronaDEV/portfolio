@@ -13,7 +13,7 @@ Examples of my work!
 
 <details>
   <summary><h4>GTA 5 Role Play server</h4></summary>
-  #### Website on different devices
+  Website on different devices
   1. Computer<br><img src="https://github.com/WronaDEV/portfolio/blob/main/assets/gtarp-comp.png">
   2. Mobile<br><img src="https://github.com/WronaDEV/portfolio/blob/main/assets/gtarp-mobile.png">
 </details>
