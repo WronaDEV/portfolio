@@ -91,7 +91,7 @@ body::after {
 
 #main-img {
     position: absolute;
-    height: 900px;
+    height: 825px;
     margin-left: 700px;
     filter:saturate(0) ;
     margin-top: -100px;
