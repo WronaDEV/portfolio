@@ -1,6 +1,6 @@
 # Portfolio
 
-Examples of my work!
+👀 Examples of my work!
 
 ## Websites
 
