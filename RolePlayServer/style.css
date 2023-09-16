@@ -108,6 +108,15 @@ body::after {
     z-index: -1;
 }
 
+@media only screen and (max-width: 1000px) {
+    #main-text {
+        margin-left: 200px;
+    }
+    #small-text {
+        margin-left: 200px;
+    }
+}
+
 @media only screen and (max-width: 1120px) {
     #navbar {
         width: 100%;
@@ -136,5 +145,14 @@ body::after {
     }
     #main-img1 {
         display: none;
+    }
+}
+
+@media only screen and (max-width: 780px) {
+    #main-text {
+        margin-left: 250px;
+    }
+    #small-text {
+        margin-left: 250px;
     }
 }
