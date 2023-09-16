@@ -156,3 +156,18 @@ body::after {
         margin-left: 250px;
     }
 }
+
+@media only screen and (max-width: 700px) {
+    #main-img {
+        display: none;
+    }
+    #main-text {
+        margin-left: 50%;
+        transform: translate(-50%, 0);
+    }
+    #small-text {
+        margin-left: 50%;
+        transform: translate(-50%, 0);
+        text-align: center;
+    }
+}
