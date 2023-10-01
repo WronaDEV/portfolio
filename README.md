@@ -1,6 +1,6 @@
 # Portfolio
-HTML & CSS\n
-👀 Examples of my work!
+#### HTML & CSS
+#### 👀 Examples of my work!
 
 ## Websites
 
