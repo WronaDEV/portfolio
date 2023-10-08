@@ -10,7 +10,7 @@
   1. Computer<br><img src="https://github.com/WronaDEV/portfolio/blob/main/assets/clothesshop-comp.png"><br>
   2. Mobile<br><img src="https://github.com/WronaDEV/portfolio/blob/main/assets/clothesshop-mobile.png">
 </details>
-
+<!--
 <details>
   <summary><h4>GTA 5 Role Play server</h4></summary>
   Website on different devices
