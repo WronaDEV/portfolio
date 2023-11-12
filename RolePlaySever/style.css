@@ -164,6 +164,12 @@ body::after {
     #small-text {
         margin-left: 200px;
     }
+    #shop-button {
+        margin-left: 200px;
+    }
+    #forum-button {
+        margin-left: 200px;
+    }
 }
 
 @media only screen and (max-width: 1120px) {
@@ -204,6 +210,12 @@ body::after {
     #small-text {
         margin-left: 250px;
     }
+    #shop-button {
+        margin-left: 250px;
+    }
+    #forum-button {
+        margin-left: 250px;
+    }
 }
 
 @media only screen and (max-width: 700px) {
@@ -218,5 +230,13 @@ body::after {
         margin-left: 50%;
         transform: translate(-50%, 0);
         text-align: center;
+    }
+    #shop-button {
+        margin-left: 50%;
+        transform: translate(-50%, 0);
+    }
+    #forum-button {
+        margin-left: 50%;
+        transform: translate(-50%, 0);
     }
 }
