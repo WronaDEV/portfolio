@@ -1,0 +1,174 @@
+body {
+    background-color: rgb(5, 5, 5);
+    margin: 0;
+    overflow-x: hidden;
+}
+
+body::after {
+    content: "";
+    display: block;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    z-index: -1;
+    background-image: linear-gradient(150deg, #fff -400%, #000001 50%, #fff 400%);
+}
+
+#navbar {
+    position: absolute;
+    transform: translate(-50%, 0);
+    left: 50%;
+    width: 1120px;
+    height: 100px;
+}
+
+#page-logo {
+    position: absolute;
+    width: 50px;
+    margin: 30px;
+}
+
+#fivem-logo {
+    cursor: pointer;
+    position: absolute;
+    height: 40px;
+    right: 5px;
+    top: 30px;
+    transition: all 1s;
+    filter: grayscale(1);
+    scale: 0.8;
+}
+
+#fivem-logo:hover {
+    filter: grayscale(0);
+}
+
+#discord-logo {
+    cursor: pointer;
+    position: absolute;
+    height: 40px;
+    right: 75px;
+    top: 30px;
+    transition: all 1s;
+    filter: grayscale(1);
+    scale: 1.1;
+}
+
+#discord-logo:hover {
+    filter: grayscale(0);
+}
+
+#home-icon {
+    cursor: pointer;
+    position: absolute;
+    height: 40px;
+    right: 140px;
+    top: 30px;
+    transition: all 1s;
+    filter: grayscale(1);
+    scale: 0.8;
+    filter: brightness(1);
+}
+
+#home-icon:hover {
+    filter: brightness(2);
+}
+
+#main-div {
+    position: absolute;
+    width: 1000px;
+    margin-top: 100px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    color: white;
+    height: auto;
+    background-color: black;
+}
+
+#main-text {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+
+#small-text {
+    position: absolute;
+    color: rgb(131, 131, 131);
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    margin-top: -35px;
+    margin-left: 50px;
+}
+
+h2 {
+    margin-left: 50px;
+    font-family: 'Poppins', sans-serif;
+}
+
+b {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+.rules-p {
+    color: rgb(172, 172, 172);
+    margin-left: 100px;
+    font-family: 'Roboto', sans-serif;
+}
+
+@media only screen and (max-width: 1000px) {
+    #main-text {
+        margin-left: 200px;
+    }
+    #small-text {
+        margin-left: 200px;
+    }
+    #shop-button {
+        margin-left: 200px;
+    }
+    #forum-button {
+        margin-left: 200px;
+    }
+}
+
+@media only screen and (max-width: 1120px) {
+    #navbar {
+        width: 100%;
+    }
+    #discord-logo {
+        right: 100px;
+    }
+    #fivem-logo {
+        right: 30px;
+    }
+    #home-icon {
+        right: 170px;
+    }
+}
+
+@media only screen and (max-width: 780px) {
+    #main-text {
+        margin-left: 250px;
+    }
+    #small-text {
+        margin-left: 250px;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    #main-text {
+        margin-left: 50%;
+        transform: translate(-50%, 0);
+    }
+    #small-text {
+        margin-left: 50%;
+        transform: translate(-50%, 0);
+        text-align: center;
+    }
+}
