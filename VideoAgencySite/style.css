@@ -1,0 +1,117 @@
+body {
+    margin: 0;
+    background-color: rgb(22, 22, 22);
+}
+
+:root {
+    --main-color: #7700cc;
+}
+
+#main-img {
+    position: absolute;
+    width: 250px;
+    margin: 10px;
+}
+
+#navbar {
+    position: absolute;
+    width: 600px;
+    height: 50px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    margin-top: 25px;
+}
+
+.nav-button {
+    position: absolute;
+    width: 150px;
+    height: 38px;
+    text-align: center;
+    font-size: 20px;
+    padding-top: 12px;
+    color: rgb(198, 198, 198);
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+}
+
+#nav-button1 {
+    margin-left: 0;
+}
+
+#nav-button2 {
+    margin-left: 150px;
+}
+
+#nav-button3 {
+    margin-left: 300px;
+}
+
+#nav-button4 {
+    margin-left: 450px;
+}
+
+#main-div {
+    position: absolute;
+    width: 1300px;
+    height: 600px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#main-text {
+    position: absolute;
+    color: white;
+    font-size: 60px;
+    margin: 10px;
+    margin-left: 0;
+    margin-top: 80px;
+    font-family: "Poppins", sans-serif;
+    line-height: 70px;
+    font-weight: 600;
+}
+
+#button5 {
+    position: absolute;
+    background-color: var(--main-color);
+    box-shadow: 0 0 5px var(--main-color);
+    width: 350px;
+    height: 35px;
+    margin-left: 0;
+    margin-top: 310px;
+    color: white;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    padding-top: 15px;
+}
+
+#short-text {
+    position: absolute;
+    color: rgb(196, 196, 196);
+    font-size: 25px;
+    margin: 10px;
+    margin-top: 380px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+}
+
+#main-video {
+    width: 500px;
+    margin-left: 700px;
+    margin-top: 125px;
+    -webkit-box-shadow: 0px 0px 100px 42px rgba(66, 68, 90, 1);
+    -moz-box-shadow: 0px 0px 100px 42px rgba(66, 68, 90, 1);
+    box-shadow: 0px 0px 100px 42px rgba(66, 68, 90, 1);
+}
+
+#second-section {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    margin-top: 100vh;
+    background-color: white;
+}
+
+#sec-main-text {
+    
+}
