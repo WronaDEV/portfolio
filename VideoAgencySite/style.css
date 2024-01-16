@@ -112,6 +112,66 @@ body {
     background-color: white;
 }
 
+#sec-container {
+    position: absolute;
+    width: 1120px;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+#sec-container::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: black;
+    margin-top: 130px;
+}
+
 #sec-main-text {
-    
+    position: absolute;
+    color: black;
+    position: absolute;
+    font-size: 50px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+}
+
+#sec-table {
+    position: absolute;
+    width: 1120px;
+    margin-top: 150px;
+    border-spacing: 10px;
+}
+
+#sec-table td {
+    height: 200px;
+    vertical-align: top;
+    background-color: rgb(215, 215, 215);
+    border-radius: 20px;
+}
+
+.sec-table-icon {
+    width: 50px;
+    margin: 10px;
+}
+
+.sec-table-main-text {
+    position: absolute;
+    color: black;
+    margin-top: -5px;
+    margin-left: 10px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+}
+
+.sec-table-text {
+    position: absolute;
+    width: 340px;
+    color: rgb(36, 36, 36);
+    margin-top: 20px;
+    margin-left: 10px;
+    font-size: 15px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
 }
