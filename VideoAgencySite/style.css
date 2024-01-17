@@ -149,9 +149,10 @@ body {
     position: absolute;
     color: black;
     position: absolute;
-    font-size: 50px;
+    font-size: 40px;
     font-family: "Poppins", sans-serif;
     font-weight: 600;
+    margin-top: 60px;
 }
 
 #sec-table {
@@ -162,7 +163,7 @@ body {
 }
 
 #sec-table td {
-    height: 200px;
+    height: 300px;
     vertical-align: top;
     background-color: rgb(215, 215, 215);
     border-radius: 20px;
