@@ -50,6 +50,23 @@ body {
     margin-left: 450px;
 }
 
+#right-button {
+    position: absolute;
+    width: 200px;
+    height: 50px;
+    background: rgb(154,0,255);
+    background: linear-gradient(145deg, rgba(154,0,255,1) 0%, rgba(201,118,255,1) 82%);
+    right: 22.5px;
+    margin-top: 22.5px;
+    border-radius: 10px;
+    color: white;
+    font-family: "Roboto", sans-serif;
+    line-height: 50px;
+    text-align: center;
+    font-weight: 800;
+    font-size: 17px;
+}
+
 #main-div {
     position: absolute;
     width: 1300px;
