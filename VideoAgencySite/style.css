@@ -367,6 +367,7 @@ body {
 }
 
 #fifth-table1 td {
+    /*min-width: 380px; */
     height: 300px;
     vertical-align: top;
     background-color: rgb(215, 215, 215);
@@ -375,4 +376,25 @@ body {
 
 .fifth-icon {
     width: 90px;
+    margin: 10px;
+}
+
+.fifth-table-main-text {
+    color: black;
+    position: absolute;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: -10px;
+    margin-left: 20px;
+    width: 290px;
+}
+
+.fifth-table-text {
+    color: black;
+    position: absolute;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    display: none;
 }
