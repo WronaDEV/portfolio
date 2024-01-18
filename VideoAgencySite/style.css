@@ -5,6 +5,7 @@ body {
 
 :root {
     --main-color: #7700cc;
+    --second-color: #ff9921;
 }
 
 #main-img {
@@ -294,7 +295,7 @@ body {
 }
 
 .red-text {
-    color: orange;
+    color: var(--second-color);
 }
 
 #fourth-presents {
@@ -302,4 +303,31 @@ body {
     width: 400px;
     right: 0;
     margin-top: 30px;
+}
+
+#fourth-button1 {
+    position: absolute;
+    width: 400px;
+    height: 40px;
+    padding-top: 10px;
+    background-image: linear-gradient(45deg, #ffbf00 0%, #ff9921 100%);
+    text-align: center;
+    border: solid 3px var(--second-color);
+    margin-top: 160px;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+}
+
+#fourth-button2 {
+    position: absolute;
+    width: 400px;
+    height: 40px;
+    border: solid 3px white;
+    text-align: center;
+    padding-top: 10px;
+    margin-top: 230px;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
 }
