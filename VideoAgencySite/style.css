@@ -398,3 +398,12 @@ body {
     font-size: 20px;
     display: none;
 }
+
+#fifth-main-text2 {
+    position: absolute;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+    margin-top: 500px;
+}
