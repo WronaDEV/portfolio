@@ -74,20 +74,6 @@ body {
     height: 100vh;
 }
 
-#first-section:after {
-    content: "";
-    display: block;
-    position: fixed;
-    left: 0;
-    top: 0;
-    width: 100vw;
-    height: 100vh;
-    background: url("assets/background-video.mp4") center center no-repeat;
-    filter: brightness(0.1);
-    background-size: cover;
-    z-index: -999;
-}
-
 #main-div {
     position: absolute;
     width: 1300px;
@@ -134,12 +120,11 @@ body {
 }
 
 #main-video {
-    width: 500px;
-    margin-left: 700px;
-    margin-top: 125px;
-    -webkit-box-shadow: 0px 0px 100px 42px rgba(66, 68, 90, 1);
-    -moz-box-shadow: 0px 0px 100px 42px rgba(66, 68, 90, 1);
-    box-shadow: 0px 0px 100px 42px rgba(66, 68, 90, 1);
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
 }
 
 #second-section {
