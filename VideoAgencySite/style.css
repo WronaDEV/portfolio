@@ -488,7 +488,7 @@ body {
 
 #seventh-section {
     width: 100%;
-    height: 800px;
+    height: 700px;
     position: absolute;
     margin-top: calc(100vh + 3540px);
     background-color: rgb(203, 203, 203);
@@ -497,8 +497,8 @@ body {
 }
 
 #seventh-container {
-    width: 820px;
-    height: 650px;
+    width: 920px;
+    height: 625px;
     position: absolute;
     background-color: white;
     box-shadow: 0 0 10px 10px black;
@@ -518,8 +518,111 @@ body {
 
 #seventh-small-text {
     color: rgb(126, 126, 126);
-    margin-top: -30px;
+    margin-top: -40px;
     font-size: 20px;
     font-family: "Poppins", sans-serif;
     font-weight: 500;
+}
+
+#seventh-table1 {
+    position: absolute;
+    width: 900px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    margin-top: 210px;
+    border-spacing: 10px;
+}
+
+#seventh-table1 td {
+    /*min-width: 380px; */
+    height: 400px;
+    vertical-align: top;
+    background-color: rgb(215, 215, 215);
+    border-radius: 20px;
+}
+
+#eighth-section {
+    position: absolute;
+    width: 100%;
+    height: 920px;
+    margin-top: calc(100vh + 4240px);
+    background-color: rgb(255, 255, 255);
+}
+
+#eighth-mail-icon {
+    position: absolute;
+    width: 100px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    margin-top: 100px;
+}
+
+#eighth-main-text {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    margin-top: 200px;
+    font-size: 45px;
+}
+
+#eighth-short-text {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    margin-top: 300px;
+    font-size: 20px;
+}
+
+#eighth-mail-input {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    margin-top: 400px;
+    width: 275px;
+    height: 35px;
+    margin-left: -80px;
+    outline: none;
+    border: solid 2px black;
+}
+
+#eighth-mail-button {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    margin-top: 400px;
+    width: 150px;
+    text-align: center;
+    color: white;
+    height: 32px;
+    background-color: red;
+    margin-left: 150px;
+    padding-top: 7px;
+}
+
+#eighth-short-text1 {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    margin-top: 460px;
+    font-size: 17px;
+}
+
+#eighth-container {
+    position: absolute;
+    width: 950px;
+    height: 400px;
+    left: 50%;
+    background-color: #200049;
+    bottom: 0;
+    transform: translate(-50%, 0);
 }
