@@ -57,16 +57,17 @@ body {
     font-size: 20px;
     padding-top: 12px;
     color: rgb(198, 198, 198);
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
 }
 
 #right-button {
     position: absolute;
-    width: 200px;
+    width: 50px;
     height: 50px;
-    background: rgb(154,0,255);
+    /*background: rgb(154,0,255);
     background: linear-gradient(145deg, rgba(154,0,255,1) 0%, rgba(201,118,255,1) 82%);
+    */
     right: 22.5px;
     margin-top: 22.5px;
     border-radius: 10px;
@@ -76,6 +77,11 @@ body {
     text-align: center;
     font-weight: 800;
     font-size: 17px;
+    z-index: 9999999999999;
+}
+
+#right-button-in {
+    z-index: 9999999999999;
 }
 
 #first-section {
