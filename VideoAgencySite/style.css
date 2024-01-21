@@ -8,6 +8,14 @@ body {
     --second-color: #ff9921;
 }
 
+.show {
+    display: block;
+}
+
+.unshow {
+    display: none;
+}
+
 #main-img {
     position: absolute;
     width: 250px;
@@ -62,6 +70,7 @@ body {
 }
 
 #right-button {
+    cursor: pointer;
     position: absolute;
     width: 50px;
     height: 50px;

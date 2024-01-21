@@ -13,11 +13,11 @@
    <video src="assets/background-video.mp4" id="main-video" autoplay loop></video>
    <div id="navbar">
       <img id="main-img" src="assets/logo.png">
-      <div id="right-button">
+      <div id="right-button" onclick="menuButton()">
          <i class="fa-solid fa-bars fa-2xl" style="color: #000000;" id="right-button-in"></i>
       </div>
    </div>
-   <table id="buttons-menu">
+   <table id="buttons-menu" class="unshow">
       <tr>
          <td>
             BUTTON1
@@ -43,7 +43,7 @@
             BUTTON5
          </td>
       </tr>
-      <div id="buttons-menu-overlay"></div>
+      <div id="buttons-menu-overlay" class="unshow"></div>
    </table>
    <div id="main-div">
       <p id="main-text">Wprowadź<br>Jakość z<br>Naszą Pomocą!</p>
@@ -268,5 +268,6 @@
       </div>
       <div id="eighth-container"></div>
    </section>
+   <script src="script.js"></script>
 </body>
 </html>
