@@ -22,27 +22,31 @@ body {
 }
 
 #buttons-menu {
-    position: absolute;
-    width: 100px;
-    height: 100px;
+    position: fixed;
+    width: 200px;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-    z-index: 9999;
+    z-index: 9999999999;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    text-align: center;
+    border-spacing: 50px;
 }
 
-#buttons-menu::after {
-    content: "";
-    position: absolute;
+#buttons-menu-overlay {
+    position: fixed;
     background-color: black;
-    opacity: 0.5;
+    opacity: 0.9;
     width: 100%;
     height: 100vh;
+    z-index: 9999999;
 }
 
 #buttons-menu td {
-    background-color: rgb(215, 215, 215);
     border-radius: 20px;
+    color: white;
+    font-size: 50px;
 }
 
 .nav-button {
