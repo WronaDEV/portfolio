@@ -170,7 +170,6 @@ body {
 #sec-main-text {
     position: absolute;
     color: black;
-    position: absolute;
     font-size: 40px;
     font-family: "Poppins", sans-serif;
     font-weight: 600;
@@ -185,32 +184,37 @@ body {
 }
 
 #sec-table td {
-    height: 300px;
+    position: absolute;
+    width: 60%;
+    height: 600px;
+    right: 0;
     vertical-align: top;
     background-color: rgb(215, 215, 215);
     border-radius: 20px;
 }
 
 .sec-table-icon {
-    width: 50px;
-    margin: 10px;
+    width: 630px;
+    height: 300px;
+    margin: 20px;
 }
 
 .sec-table-main-text {
     position: absolute;
     color: black;
-    margin-top: -5px;
-    margin-left: 10px;
+    margin-top: -20px;
+    margin-left: 20px;
     font-family: "Poppins", sans-serif;
-    font-weight: 800;
+    font-weight: 600;
+    font-size: 30px;
 }
 
 .sec-table-text {
     position: absolute;
-    width: 340px;
+    width: 630px;
     color: rgb(36, 36, 36);
-    margin-top: 20px;
-    margin-left: 10px;
+    margin-top: 25px;
+    margin-left: 20px;
     font-size: 15px;
     font-family: "Poppins", sans-serif;
     font-weight: 400;
