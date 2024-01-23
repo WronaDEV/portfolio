@@ -17,3 +17,17 @@ function menuButton() {
         buttonsMenuButton.style.color = "black";
     }
 }
+
+function showVideoDesc(arg) {
+    const videoDivElement = document.getElementById('thi-video-div' + arg);
+    const videoTxtElement = document.getElementById('thi-video-txt' + arg);
+    videoDivElement.style.width = '800px';
+    videoTxtElement.style.marginLeft = '510px';
+}
+
+function hideVideoDesc(arg) {
+    const videoDivElement = document.getElementById('thi-video-div' + arg);
+    const videoTxtElement = document.getElementById('thi-video-txt' + arg);
+    videoDivElement.style.width = '0';
+    videoTxtElement.style.marginLeft = '0';
+}
