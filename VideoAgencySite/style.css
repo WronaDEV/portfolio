@@ -6,6 +6,8 @@ body {
 :root {
     --main-color: #7700cc;
     --second-color: #ff9921;
+    --gray-color: rgb(215, 215, 215);
+    --active-color: rgba(0, 0, 255, 0.685);
 }
 
 .show {
@@ -14,6 +16,12 @@ body {
 
 .unshow {
     display: none;
+}
+
+.center {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
 }
 
 #main-img {
@@ -31,7 +39,8 @@ body {
 
 #buttons-menu {
     position: fixed;
-    width: 200px;
+    width: 300px;
+    height: 700px;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
@@ -191,6 +200,7 @@ body {
     width: 1120px;
     margin-top: 150px;
     border-spacing: 10px;
+    transition: all 1s;
 }
 
 #sec-table td {
@@ -201,6 +211,7 @@ body {
     vertical-align: top;
     background-color: rgb(215, 215, 215);
     border-radius: 20px;
+    transition: all 1s;
 }
 
 .sec-table-icon {
@@ -249,6 +260,8 @@ body {
     margin-left: 0;
     font-family: "Poppins", sans-serif;
     font-weight: 600;
+    cursor: pointer;
+    transition: all .5s;
 }
 
 .sec-table1-icon {
@@ -570,6 +583,14 @@ body {
     transform: translate(-50%, 0);
 }
 
+#sixth-container {
+    width: 1120px;
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
 #sixth-main-text {
     color: white;
     position: absolute;
@@ -615,4 +636,55 @@ body {
     font-family: "Poppins", sans-serif;
     font-weight: 200;
     padding-top: 10px;
+}
+
+#sixth-left-main-logo {
+    position: absolute;
+    width: 150px;
+    bottom: 105px;
+    margin-left: -10px;
+}
+
+#sixth-left-div {
+    position: absolute;
+    width: 200px;
+    bottom: 125px;
+    height: 3px;
+    border-radius: 10px;
+    background-color: var(--main-color);
+}
+
+#sixth-left-short-text {
+    position: absolute;
+    width: 150px;
+    bottom: 55px;
+    color: white;
+    white-space: nowrap;
+    font-family: "Poppins", sans-serif;
+}
+
+#sixth-menu {
+    position: absolute;
+    width: 200px;
+    bottom: 65px;
+    margin-left: 400px;
+    height: 150px;
+    border-radius: 10px;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+#sixth-info {
+    position: absolute;
+    width: 200px;
+    bottom: 65px;
+    margin-left: 600px;
+    height: 150px;
+    border-radius: 10px;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-size: 20px;
 }

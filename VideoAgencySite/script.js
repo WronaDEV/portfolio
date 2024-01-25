@@ -3,6 +3,8 @@ let unshow = 'unshow';
 const buttonsMenu = document.getElementById("buttons-menu");
 const buttonsMenuOverlay = document.getElementById("buttons-menu-overlay");
 const buttonsMenuButton = document.getElementById("right-button-in");
+//
+descriptionsMenu('1');
 
 function menuButton() {
     if (~buttonsMenu.className.indexOf(unshow)) {
@@ -18,16 +20,22 @@ function menuButton() {
     }
 }
 
-function showVideoDesc(arg) {
-    const videoDivElement = document.getElementById('thi-video-div' + arg);
-    const videoTxtElement = document.getElementById('thi-video-txt' + arg);
-    videoDivElement.style.width = '800px';
-    videoTxtElement.style.marginLeft = '510px';
-}
-
-function hideVideoDesc(arg) {
-    const videoDivElement = document.getElementById('thi-video-div' + arg);
-    const videoTxtElement = document.getElementById('thi-video-txt' + arg);
-    videoDivElement.style.width = '0';
-    videoTxtElement.style.marginLeft = '0';
+function descriptionsMenu(arg) {
+    const activeDescription = localStorage.getItem('activeDescription');
+    const activeDescriptionsLeftMenuElement = document.getElementById('sec-left-menu-' + activeDescription);
+    const activeDescriptionElement = document.getElementById('sec-table-id' + activeDescription);
+    const descriptionsElement = document.getElementById('sec-table-id' + arg);
+    const descriptionsLeftMenuElement = document.getElementById('sec-left-menu-' + arg);
+    activeDescriptionsLeftMenuElement.style.boxShadow = 'none';
+    activeDescriptionsLeftMenuElement.style.backgroundColor = 'var(--gray-color)';
+    activeDescriptionsLeftMenuElement.style.color = 'black';
+    activeDescriptionElement.style.boxShadow = 'none';
+    activeDescriptionElement.className = unshow;
+    //
+    descriptionsElement.className = show;
+    descriptionsLeftMenuElement.style.boxShadow = '0 0 10px 1px black';
+    descriptionsLeftMenuElement.style.backgroundColor = 'var(--active-color)';
+    descriptionsLeftMenuElement.style.color = 'white';
+    descriptionsElement.style.boxShadow = '0 0 10px 1px var(--active-color)';
+    localStorage.setItem('activeDescription', arg);
 }

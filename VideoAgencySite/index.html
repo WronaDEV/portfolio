@@ -3,7 +3,7 @@
 <head>
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>Document</title>
+   <title>ViditMEDIA</title>
    <link rel="stylesheet" href="style.css">
    <script src="https://kit.fontawesome.com/bf02a58e4d.js" crossorigin="anonymous"></script>
    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
@@ -12,39 +12,41 @@
 <body>
    <video src="assets/background-video.mp4" id="main-video" autoplay loop></video>
    <div id="navbar">
-      <img id="main-img" src="assets/logo.png">
+      <img id="main-img" src="assets/logo-dark.png">
       <div id="right-button" onclick="menuButton()">
          <i class="fa-solid fa-bars fa-2xl" style="color: #000000;" id="right-button-in"></i>
       </div>
    </div>
    <table id="buttons-menu" class="unshow">
-      <tr>
-         <td>
-            BUTTON1
-         </td>
-      </tr>
-      <tr>
-         <td>
-            BUTTON2
-         </td>
-      </tr>
-      <tr>
-         <td>
-            BUTTON3
-         </td>
-      </tr>
-      <tr>
-         <td>
-            BUTTON4
-         </td>
-      </tr>
-      <tr>
-         <td>
-            BUTTON5
-         </td>
-      </tr>
-      <div id="buttons-menu-overlay" class="unshow"></div>
+      <tbody>
+         <tr>
+            <td>
+               BUTTON1
+            </td>
+         </tr>
+         <tr>
+            <td>
+               BUTTON2
+            </td>
+         </tr>
+         <tr>
+            <td>
+               BUTTON3
+            </td>
+         </tr>
+         <tr>
+            <td>
+               BUTTON4
+            </td>
+         </tr>
+         <tr>
+            <td>
+               BUTTON5
+            </td>
+         </tr>
+      </tbody>
    </table>
+   <div id="buttons-menu-overlay" class="unshow"></div>
    <div id="main-div">
       <p id="main-text">Wprowadź<br>Jakość z<br>Naszą Pomocą!</p>
       <div id="button5">Kliknij i otrzymaj natychmiastową wycenę</div>
@@ -54,42 +56,42 @@
       <div id="sec-container">
          <p id="sec-main-text">Zwiększ jakość swojej firmy w Social Mediach!</p>
          <p id="sec-short-text">Zwiększ jakość swojej firmy w Social Mediach!</p>
-         <table id="sec-table"><!--
-            <td>
-               <img class="sec-table-icon" src="example-icon.png">
+         <table id="sec-table">
+            <td id="sec-table-id1" class="show">
+               <img class="sec-table-icon" src="example-video.png">
                <p class="sec-table-main-text">Twój Osobisty Montażysta</p>
                <p class="sec-table-text">Do Twojego zlecenia zostaje przydzielony wykwalifikowany montażysta. Przed przystąpieniem do
                   pracy dokładnie analizuje on Twoją markę, zrozumie Twój styl oraz uwzględni Twoje indywidualne
                   potrzeby.</p>
             </td>
-            <td>
-               <img class="sec-table-icon" src="example-icon.png">
+            <td id="sec-table-id2" class="unshow">
+               <img class="sec-table-icon" src="example-video.png">
                <p class="sec-table-main-text">Większe Zaangażowanie w Treści</p>
                <p class="sec-table-text">Twoje filmy będą wypełnione przyciągającymi wzrok, angażującymi elementami czy materiałami
                   filmowymi co przełoży się na większą liczbę wyświetleń, wydłużenie czasu oglądania i konwersji.
                   </p>
             </td>
-            <td>
-               <img class="sec-table-icon" src="example-icon.png">
+            <td id="sec-table-id3" class="unshow">
+               <img class="sec-table-icon" src="example-video.png">
                <p class="sec-table-main-text">Zaoszczędź Swój Czas</p>
                <p class="sec-table-text">Zamiast samodzielnie edytować treści lub wydawać mnóstwo czasu i pieniędzy na freelancerów,
                   pozwól nam uwolnić swój harmonogram, abyś mógł pracować nad swoim biznesem, wiedząc, że
                   edycją wideo zajmują się profesjonaliści.</p>
             </td>
-            <td>
-               <img class="sec-table-icon" src="example-icon.png">
+            <td id="sec-table-id4" class="unshow">
+               <img class="sec-table-icon" src="example-video.png">
                <p class="sec-table-main-text">Spójna Treść i Szybkie Dostarczanie</p>
                <p class="sec-table-text">Publikuj treści konsekwentnie. Bardzo szybki czas realizacji pozwala na planowanie z
                   wyprzedzeniem, a dedykowany montażysta zawsze będzie na czas, aby dostarczyć zamówienia
                   zgodnie z terminami.</p>
             </td>
-            <td>
-               <img class="sec-table-icon" src="example-icon.png">
+            <td id="sec-table-id5" class="unshow">
+               <img class="sec-table-icon" src="example-video.png">
                <p class="sec-table-main-text">Wybierzemy Odpowiednie Momenty</p>
                <p class="sec-table-text">Nasi doświadczeni i wykwalifikowani montażyści wiedzą, co najlepiej sprawdza się w filmach, jak
                   sprawić, by treści były angażujące i są gotowi decydować o cięciach i wybierać najlepsze ujęcia.</p>
-            </td>-->
-            <td>
+            </td>
+            <td id="sec-table-id6" class="unshow">
                <img class="sec-table-icon" src="example-video.png">
                <p class="sec-table-main-text">Elastyczność</p>
                <p class="sec-table-text">Skaluj edycję wideo w górę lub w dół, kiedy tylko zajdzie taka potrzeba. Korzystając z naszych usług,
@@ -98,37 +100,37 @@
          </table>
          <table id="sec-table1">
             <tr>
-               <td>
+               <td onclick="descriptionsMenu('1')" id="sec-left-menu-1">
                   <img class="sec-table1-icon" src="example-icon.png">
-                  <p class="sec-table1-main-text">Elastyczność</p>
+                  <p class="sec-table1-main-text">Twój Osobisty Montażysta</p>
                </td>
             </tr>
             <tr>
-               <td>
+               <td onclick="descriptionsMenu('2')" id="sec-left-menu-2">
                   <img class="sec-table1-icon" src="example-icon.png">
-                  <p class="sec-table1-main-text">Elastyczność</p>
+                  <p class="sec-table1-main-text">Większe Zaangażowanie w Treści</p>
                </td>
             </tr>
             <tr>
-               <td>
+               <td onclick="descriptionsMenu('3')" id="sec-left-menu-3">
                   <img class="sec-table1-icon" src="example-icon.png">
-                  <p class="sec-table1-main-text">Elastyczność</p>
+                  <p class="sec-table1-main-text">Zaoszczędź Swój Czas</p>
                </td>
             </tr>
             <tr>
-               <td>
+               <td onclick="descriptionsMenu('4')" id="sec-left-menu-4">
                   <img class="sec-table1-icon" src="example-icon.png">
-                  <p class="sec-table1-main-text">Elastyczność</p>
+                  <p class="sec-table1-main-text">Spójna Treść i Szybkie Dostarczanie</p>
                </td>
             </tr>
             <tr>
-               <td>
+               <td onclick="descriptionsMenu('5')" id="sec-left-menu-5">
                   <img class="sec-table1-icon" src="example-icon.png">
-                  <p class="sec-table1-main-text">Elastyczność</p>
+                  <p class="sec-table1-main-text">Wybierzemy Odpowiednie Momenty</p>
                </td>
             </tr>
             <tr>
-               <td>
+               <td onclick="descriptionsMenu('6')" id="sec-left-menu-6">
                   <img class="sec-table1-icon" src="example-icon.png">
                   <p class="sec-table1-main-text">Elastyczność</p>
                </td>
@@ -193,9 +195,49 @@
       </div>
    </section>
    <section id="sixth-section">
-      <p id="sixth-main-text">ZAOSZCZĘDŹ SWÓJ CZAS</p>
-      <div id="sixth-left-button">Umów rozmowę</div>
-      <div id="sixth-right-button">Wyślij brief</div>
+      <div id="sixth-container">
+         <p id="sixth-main-text">ZAOSZCZĘDŹ SWÓJ CZAS</p>
+         <div id="sixth-left-button">Umów rozmowę</div>
+         <div id="sixth-right-button">Wyślij brief</div>
+         <img id="sixth-left-main-logo" src="assets/logo.png">
+         <div id="sixth-left-div"></div>
+         <p id="sixth-left-short-text">Limitless brand experience</p>
+         <table id="sixth-menu">
+            <tbody>
+               <tr>
+                  <td>
+                     BUTTON1
+                  </td>
+               </tr>
+               <tr>
+                  <td>
+                     BUTTON2
+                  </td>
+               </tr>
+               <tr>
+                  <td>
+                     BUTTON3
+                  </td>
+               </tr>
+               <tr>
+                  <td>
+                     BUTTON4
+                  </td>
+               </tr>
+               <tr>
+                  <td>
+                     BUTTON5
+                  </td>
+               </tr>
+            </tbody>
+            <div id="sixth-info">
+               <b>Biuro Gdańsk</b><br>
+               ul. Pelplińska 4<br>
+               80-335 Gdańsk<br>
+               NIP: 5842793156
+            </div>
+         </table>
+      </div>
    </section>
    <script src="script.js"></script>
 </body>
