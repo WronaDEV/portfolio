@@ -65,9 +65,25 @@ body {
 }
 
 #buttons-menu td {
+    cursor: pointer;
     border-radius: 20px;
     color: white;
     font-size: 50px;
+    transition: all 1s;
+}
+
+#buttons-menu td::before {
+    content: "";
+    position: absolute;
+    width: 0;
+    background-color: white;
+    height: 5px;
+    margin-top: 55px;
+    transition: all 1s;
+}
+
+#buttons-menu td:hover::before {
+    width: 220px;
 }
 
 #right-button {
@@ -88,6 +104,7 @@ body {
     font-weight: 800;
     font-size: 17px;
     z-index: 9999999999999;
+    transition: all 1s;
 }
 
 #right-button-in {
@@ -95,6 +112,7 @@ body {
     z-index: 9999999999999;
     right: 22.5px;
     margin-top: 22.5px;
+    transition: all .5s;
 }
 
 #first-section {
