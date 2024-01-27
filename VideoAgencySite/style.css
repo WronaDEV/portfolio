@@ -763,15 +763,23 @@ body {
 }
 
 #sixth-right-socials td {
+    cursor: pointer;
     width: 65px;
     height: 65px;
     margin-top: -10px;
     background-color: black;
     border-radius: 9999px;
     transform: scale(0.7);
+    transition: all .5s;
+}
+
+#sixth-right-socials td:hover {
+    transform: scale(1.1);
+    z-index: 9999;
 }
 
 .sixth-right-socials-icon {
-    margin-left: 18px;
+    width: 20px;
+    margin-left: 17.5px;
     transform: scale(1);
 }
