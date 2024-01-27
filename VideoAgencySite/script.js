@@ -4,6 +4,7 @@ const buttonsMenu = document.getElementById("buttons-menu");
 const buttonsMenuOverlay = document.getElementById("buttons-menu-overlay");
 const buttonsMenuButton = document.getElementById("right-button-in");
 //
+localStorage.setItem('activeDescription', '1');
 descriptionsMenu('1');
 
 function menuButton() {
