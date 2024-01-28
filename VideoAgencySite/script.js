@@ -12,7 +12,7 @@ function menuButton() {
         buttonsMenu.className = buttonsMenu.className.replace(unshow, show);
         buttonsMenuOverlay.className = "show";
         buttonsMenuButton.className = "fa-solid fa-xmark fa-2xl";
-        buttonsMenuButton.style.color = "#fff";
+        buttonsMenuButton.style.color = "white";
     } else {
         buttonsMenu.className = buttonsMenu.className.replace(show, unshow);
         buttonsMenuOverlay.className = "unshow";
@@ -39,4 +39,24 @@ function descriptionsMenu(arg) {
     descriptionsLeftMenuElement.style.color = 'white';
     descriptionsElement.style.boxShadow = '0 0 10px 1px var(--active-color)';
     localStorage.setItem('activeDescription', arg);
+}
+
+var i = 0;
+var txt = "Wprowadź&nlJakość z&nlNaszą Pomocą!";
+var speed = 50;
+
+function typeWriter() {
+    if (i < txt.length) {
+        if (txt.charAt(i) == "&" & txt.charAt(i+1) == "n" & txt.charAt(i+2) == "l") {
+            i++;
+            i++;
+            i++;
+            document.getElementById("main-text").innerHTML += "<br>";
+            console.log(1);
+        } else {
+            document.getElementById("main-text").innerHTML += txt.charAt(i);
+            i++;
+        }
+        setTimeout(typeWriter, speed);
+    }
 }

@@ -49,7 +49,7 @@ body {
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-    z-index: 9999999999;
+    z-index: 999999999;
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     text-align: center;
@@ -89,7 +89,7 @@ body {
 
 #right-button {
     cursor: pointer;
-    position: absolute;
+    position: fixed;
     width: 50px;
     height: 50px;
     /*background: rgb(154,0,255);
@@ -104,13 +104,13 @@ body {
     text-align: center;
     font-weight: 800;
     font-size: 17px;
-    z-index: 9999999999999;
+    z-index: 999999999999999999;
     transition: all 1s;
 }
 
 #right-button-in {
     position: absolute;
-    z-index: 9999999999999;
+    z-index: 999999999999999999;
     right: 22.5px;
     margin-top: 22.5px;
     transition: all .5s;
@@ -144,6 +144,7 @@ body {
 }
 
 #button5 {
+    cursor: pointer;
     position: absolute;
     background-color: var(--main-color);
     box-shadow: 0 0 5px var(--main-color);
@@ -155,6 +156,11 @@ body {
     text-align: center;
     font-family: "Roboto", sans-serif;
     padding-top: 15px;
+    transition: all .5s;
+}
+
+#button5:hover {
+    box-shadow: 0 0 10px 5px var(--main-color);
 }
 
 #short-text {
