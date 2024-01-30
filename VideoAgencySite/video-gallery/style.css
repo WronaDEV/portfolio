@@ -115,3 +115,44 @@ body {
     margin-top: 22.5px;
     transition: all .5s;
 }
+
+#main-text {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+    margin-top: 150px;
+    color: white;
+    font-size: 50px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+}
+
+#section1 {
+    position: absolute;
+    width: 100%;
+    height: 900px;
+    margin-top: 260px;
+    background-color: white;
+}
+
+#one-main-text {
+    color: black;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+    white-space: nowrap;
+    margin-top: 70px;
+}
+
+#one-table1 {
+    position: absolute;
+    width: 1120px;
+    height: 100px;
+    background-color: red;
+    margin-top: 150px;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
