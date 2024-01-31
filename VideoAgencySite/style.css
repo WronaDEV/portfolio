@@ -135,12 +135,13 @@ body {
     position: absolute;
     color: white;
     font-size: 60px;
-    margin: 10px;
-    margin-left: 0;
-    margin-top: 80px;
+    left: 50%;
+    top: 50%;
     font-family: "Poppins", sans-serif;
     line-height: 70px;
     font-weight: 600;
+    transform: translate(-50%, 0);
+    text-align: center;
 }
 
 #button5 {
@@ -150,8 +151,9 @@ body {
     box-shadow: 0 0 5px var(--main-color);
     width: 350px;
     height: 35px;
-    margin-left: 0;
-    margin-top: 310px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    margin-top: 600px;
     color: white;
     text-align: center;
     font-family: "Roboto", sans-serif;
@@ -167,10 +169,12 @@ body {
     position: absolute;
     color: rgb(196, 196, 196);
     font-size: 25px;
-    margin: 10px;
-    margin-top: 380px;
+    margin-top: 670px;
     font-family: "Poppins", sans-serif;
     font-weight: 300;
+    left: 50%;
+    transform: translate(-50%, 0);
+    white-space: nowrap;
 }
 
 #main-video {
