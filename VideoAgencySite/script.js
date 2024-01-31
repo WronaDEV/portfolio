@@ -25,6 +25,7 @@ function descriptionsMenu(arg) {
     const activeDescription = localStorage.getItem('activeDescription');
     const activeDescriptionsLeftMenuElement = document.getElementById('sec-left-menu-' + activeDescription);
     const activeDescriptionElement = document.getElementById('sec-table-id' + activeDescription);
+    const activeDescriptionsIconElement = document.getElementById('sec-table1-icon' + activeDescription);
     const descriptionsElement = document.getElementById('sec-table-id' + arg);
     const descriptionsLeftMenuElement = document.getElementById('sec-left-menu-' + arg);
     const descriptionsIconElement = document.getElementById('sec-table1-icon' + arg);
@@ -34,6 +35,7 @@ function descriptionsMenu(arg) {
     activeDescriptionsLeftMenuElement.style.color = 'black';
     activeDescriptionElement.style.boxShadow = 'none';
     activeDescriptionElement.className = unshow;
+    activeDescriptionsIconElement.style.filter = "none";
     //
     descriptionsElement.className = show;
     descriptionsLeftMenuElement.style.boxShadow = '0 0 10px 1px black';
