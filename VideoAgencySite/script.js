@@ -27,6 +27,8 @@ function descriptionsMenu(arg) {
     const activeDescriptionElement = document.getElementById('sec-table-id' + activeDescription);
     const descriptionsElement = document.getElementById('sec-table-id' + arg);
     const descriptionsLeftMenuElement = document.getElementById('sec-left-menu-' + arg);
+    const descriptionsIconElement = document.getElementById('sec-table1-icon' + arg);
+    //
     activeDescriptionsLeftMenuElement.style.boxShadow = 'none';
     activeDescriptionsLeftMenuElement.style.backgroundColor = 'var(--gray-color)';
     activeDescriptionsLeftMenuElement.style.color = 'black';
@@ -38,6 +40,7 @@ function descriptionsMenu(arg) {
     descriptionsLeftMenuElement.style.backgroundColor = 'var(--active-color)';
     descriptionsLeftMenuElement.style.color = 'white';
     descriptionsElement.style.boxShadow = '0 0 10px 1px var(--active-color)';
+    descriptionsIconElement.style.filter = "invert(100%)";
     localStorage.setItem('activeDescription', arg);
 }
 
