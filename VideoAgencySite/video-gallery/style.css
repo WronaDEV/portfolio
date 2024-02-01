@@ -149,10 +149,48 @@ body {
 
 #one-table1 {
     position: absolute;
-    width: 1120px;
+    width: 1100px;
     height: 100px;
-    background-color: red;
     margin-top: 150px;
     left: 50%;
     transform: translate(-50%, 0);
+}
+
+.one-table1-icon {
+    width: 100px;
+    margin-left: 20px;
+}
+
+.one-table1-text {
+    position: absolute;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    text-align: center;
+    width: 150px;
+}
+
+#one-table1::after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 1px;
+    background-color: black;
+    margin-top: 75px;
+}
+
+#one-table2 {
+    position: absolute;
+    width: 1120px;
+    height: 100px;
+    background-color: red;
+    margin-top: 380px;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+#one-table2 td {
+    background-color: green;
+    border-radius: 10px;
+    width: min-content;
+    height: 30px;
 }
