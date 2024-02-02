@@ -231,3 +231,38 @@ body {
 .one-table3-video1 {
     width: 300px;
 }
+
+#section2 {
+    position: absolute;
+    width: 100%;
+    height: 1000px;
+    background-color: white;
+    margin-top: 2000px;
+    border-top: solid 2px black;
+}
+
+#two-main-text {
+    font-size: 40px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    margin-top: 100px;
+}
+
+#two-table1 {
+    position: absolute;
+    width: 1120px;
+    margin-top: 200px;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+#two-table1 td {
+    background-color: gray;
+    border-radius: 10px;
+    width: min-content;
+    height: 30px;
+    padding-left: 10px;
+}
