@@ -257,12 +257,22 @@ body {
     margin-top: 200px;
     left: 50%;
     transform: translate(-50%, 0);
+    border-spacing: 20px;
 }
 
 #two-table1 td {
-    background-color: gray;
+    background-color: white;
     border-radius: 10px;
     width: min-content;
-    height: 30px;
+    height: 400px;
     padding-left: 10px;
+    border-radius: 50px;
+    box-shadow: 0 0 100px 1px black;
+}
+
+.two-5stars {
+    position: absolute;
+    margin-top: -260px;
+    margin-left: -75px;
+    transform: scale(0.5);
 }

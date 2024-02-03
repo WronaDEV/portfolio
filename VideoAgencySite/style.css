@@ -522,6 +522,7 @@ body {
     height: 580px; /* 900 */
     margin-top: calc(100vh + 2820px);
     background-color: black;
+    z-index: 999;
 }
 
 #fifth-container {
@@ -814,4 +815,14 @@ body {
     width: 20px;
     margin-left: 17.5px;
     transform: scale(1);
+}
+
+#sixth-video {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    filter: brightness(1);
+    z-index: -99999999999;
 }
