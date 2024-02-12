@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    padding: 0;
     background-color: rgb(22, 22, 22);
 }
 
@@ -70,7 +71,7 @@ body {
     border-radius: 20px;
     color: white;
     font-size: 50px;
-    transition: all 1s;
+    transition: all .5s;
 }
 
 #buttons-menu td::before {
@@ -80,7 +81,7 @@ body {
     background-color: white;
     height: 5px;
     margin-top: 55px;
-    transition: all 1s;
+    transition: all .5s;
 }
 
 #buttons-menu td:hover::before {
